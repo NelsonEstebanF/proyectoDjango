@@ -10,6 +10,7 @@ urlpatterns = [
     path('portfolio/', portfolio, name='portfolio'),
     path('contact/', views.contact, name='contact'),
     path('admin/', admin.site.urls),
+    path('covid/', views.covid, name='covid'),
 ]
 
 # Si estamos en modo de desarrollo osea estamos en debug, agregamos una ruta nueva al urlpatterns
